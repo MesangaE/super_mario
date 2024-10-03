@@ -89,6 +89,7 @@ I created an image of my instance so I don't need to go through all the precedin
 
 
 
+![destroyed!!!](https://github.com/user-attachments/assets/fa963b8b-4d1b-45d4-9b34-29348612c0a8)
 
 
 
