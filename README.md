@@ -86,7 +86,6 @@ I created an image of my instance so I don't need to go through all the precedin
 
 
 
-![mario image](https://github.com/user-attachments/assets/5a3a32d2-06b2-4df8-a0a3-76cf57213125)
 
 
 
