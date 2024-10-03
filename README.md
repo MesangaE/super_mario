@@ -9,7 +9,7 @@ But it was so gratifying playing it again a bit
 To get this game rolling, you need an AWS account or one with a cloud provider but I did this on AWS
 
 1. Launch an EC2 Instance. I went for a free tier Ubuntu 22.04 and I opened ports for HTTPS http and SSH
-2. I connected to the instance and set up the docker, AWS CLI, terraform, and kubectl environment then I cloned the repo my repo since I had mad modifications to parts of the code so it can work in my environment (like changing regions in the provider.tf)
+2. I connected to the instance and set up the docker, AWS CLI, terraform, and kubectl environment then I cloned the repo my repo since I had made modifications to parts of the code so it could work in my environment (like changing regions in the provider.tf, the backend bucket name for the state file etc.) git clone https://github.com/MesangaE/super_mario.git
 3. Then I created a role, gave it admin access, and attached the role to the instance.
 4. I built the infra with Terraform. (Yes we want to automate because there are a couple of resources created so it is easy to clean up)
 5. Then I created the deployment and the service for EKS
@@ -18,9 +18,12 @@ To get this game rolling, you need an AWS account or one with a cloud provider b
 
 creating the EKS infra
 
-Super Mario Bucket
+Super Mario Bucket (backend) to store state files
 
 ![mario bucket](https://github.com/user-attachments/assets/4c46f431-fa19-4197-8c75-2db4f566117c)
+
+![state files](https://github.com/user-attachments/assets/5eb3151c-f002-4044-a1c5-6cae4486b074)
+
 
 Mario IAM role
 
