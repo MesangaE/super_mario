@@ -14,5 +14,42 @@ To get this game rolling, you need an AWS account or one with a cloud provider b
 4. I built the infra with Terraform. (Yes we want to automate because there are a couple of resources created so it is easy to clean up)
 5. Then I created the deployment and the service for EKS
 6. I played and screamed like a mad teen lol.....only joyful
-7. i created an image for the instance because i wanted to play this game again.....Don't judge me.
+7. I created an image for the instance because I wanted to play this game again.....Don't judge me.
+
+creating the EKS infra
+terraform init
+![t init](https://github.com/user-attachments/assets/68a12595-878f-463d-942b-d31d57789868)
+
+terraform plan
+![t plan](https://github.com/user-attachments/assets/bd157148-2529-42fc-b6ce-13cb76887b00)
+
+terraform apply
+
+![t apply](https://github.com/user-attachments/assets/4d10e739-7839-432f-931b-f43aac72ef3f)
+
+
+node group
+![node-group](https://github.com/user-attachments/assets/0d94a4c1-147a-4344-9ae1-2317bd6ce32a)
+
+loadbalancer
+
+![loadbalancer](https://github.com/user-attachments/assets/196f29e0-9b45-4cb6-bf1a-8b2546f3c85a)
+
+
+
+![eksclusters](https://github.com/user-attachments/assets/989f3529-154a-4612-8a9e-325dd45c9619)
+
+
+![created cluster](https://github.com/user-attachments/assets/4c850b41-c151-4842-8b8c-6760adecc5db)
+
+created deployment and service
+
+![deployment](https://github.com/user-attachments/assets/32037920-ed91-43e3-8577-66fd6d97fa03)
+
+![kservice created](https://github.com/user-attachments/assets/e5c4bd05-92a3-40e9-b8bc-a9a5a28dec36)
+
+
+
+load balancer ingress to paste into your browser
+![kget all](https://github.com/user-attachments/assets/a6dcd4f7-c6eb-42bc-9e51-966603b3899e)
 
