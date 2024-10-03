@@ -20,7 +20,7 @@ To get this game rolling, you need an AWS account or one with a cloud provider b
 6. I played and screamed like a mad teen lol.....only joyful
 7. I created an image for the instance because I wanted to play this game again.....Don't judge me.
 
-<h2>creating the EKS infra</h2>h2>
+<h2>creating the EKS infra</h2>
 
 Super Mario Bucket (backend) to store state files
 
