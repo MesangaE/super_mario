@@ -71,9 +71,19 @@ load balancer ingress to paste into your browser
 
 ![deployment](https://github.com/user-attachments/assets/32037920-ed91-43e3-8577-66fd6d97fa03)
 
-I created an image of my instance so I don't need to go through all the preceding steps. Rather I would re-apply my infra, create the deployments and the service then, boom! I am playing the game in less time
+I created an image of my instance so I don't need to go through all the preceding steps. Rather I would re-apply my infra, and create the deployments and the service. boom! I am playing the game in less time
 
 ![image creation](https://github.com/user-attachments/assets/d1ae6c51-a038-4c14-85e3-41a0770f84b1)
+
+![mario image](https://github.com/user-attachments/assets/38334159-803b-4b34-a0ef-f30f1bb880ab)
+
+
+
+
+<h1>Destroy!!!!!</h1>
+
+![tdestroy](https://github.com/user-attachments/assets/dbc24d02-c9b8-4c2e-a42c-8f44b2768405)
+
 
 
 ![mario image](https://github.com/user-attachments/assets/5a3a32d2-06b2-4df8-a0a3-76cf57213125)
