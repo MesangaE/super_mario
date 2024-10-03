@@ -2,14 +2,14 @@
 courtesy of Aakib -->https://aakibkhan1.medium.com/project-6-deployment-of-super-mario-on-kubernetes-using-terraform-74c7ce79b1f6
 
 I played this game as a teenager. Yes I have been around for a while and to have
-But it was so gratifying playing it again bit
+But it was so gratifying playing it again a bit
 
 ![image](https://github.com/user-attachments/assets/84232888-e5e9-4325-8a0b-213d67930688)
 
 To get this game rolling, you need an AWS account or one with a cloud provider but I did this on AWS
 
 1. Launch an EC2 Instance. I went for a free tier Ubuntu 22.04 and I opened ports for HTTPS http and SSH
-2. I connected to the instance and set up the docker, AWS CLI, terraform, and kubectl environment.
+2. I connected to the instance and set up the docker, AWS CLI, terraform, and kubectl environment then I cloned the repo my repo since I had mad modifications to parts of the code so it can work in my environment (like changing regions in the provider.tf)
 3. Then I created a role, gave it admin access, and attached the role to the instance.
 4. I built the infra with Terraform. (Yes we want to automate because there are a couple of resources created so it is easy to clean up)
 5. Then I created the deployment and the service for EKS
@@ -17,6 +17,16 @@ To get this game rolling, you need an AWS account or one with a cloud provider b
 7. I created an image for the instance because I wanted to play this game again.....Don't judge me.
 
 creating the EKS infra
+
+Super Mario Bucket
+
+![mario bucket](https://github.com/user-attachments/assets/4c46f431-fa19-4197-8c75-2db4f566117c)
+
+Mario IAM role
+
+
+![mario role](https://github.com/user-attachments/assets/e465f67e-ac28-41aa-9ea8-1d389e5ba435)
+
 terraform init
 ![t init](https://github.com/user-attachments/assets/68a12595-878f-463d-942b-d31d57789868)
 
