@@ -35,12 +35,15 @@ Super Mario Bucket (backend) to store state files
 ![mario role](https://github.com/user-attachments/assets/e465f67e-ac28-41aa-9ea8-1d389e5ba435)
 
 <h3>terraform init</h3>
+
 ![t init](https://github.com/user-attachments/assets/68a12595-878f-463d-942b-d31d57789868)
 
 <h3>terraform plan</h3>
+
+
 ![t plan](https://github.com/user-attachments/assets/bd157148-2529-42fc-b6ce-13cb76887b00)
 
-<h3>terraform apply</h3>h3>
+<h3>terraform apply</h3>
 
 ![t apply](https://github.com/user-attachments/assets/4d10e739-7839-432f-931b-f43aac72ef3f)
 
