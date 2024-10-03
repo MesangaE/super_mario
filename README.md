@@ -48,7 +48,7 @@ Super Mario Bucket (backend) to store state files
 <h3>node group</h3>
 ![node-group](https://github.com/user-attachments/assets/0d94a4c1-147a-4344-9ae1-2317bd6ce32a)
 
-<h3>loadbalancer</h3>h3>
+<h3>loadbalancer</h3>
 
 ![loadbalancer](https://github.com/user-attachments/assets/196f29e0-9b45-4cb6-bf1a-8b2546f3c85a)
 
