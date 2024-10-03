@@ -59,6 +59,14 @@ created deployment and service
 
 ![deployment](https://github.com/user-attachments/assets/32037920-ed91-43e3-8577-66fd6d97fa03)
 
+I created an image of my instance so I don't need to go through all the preceding steps. Rather I would just re-apply my infra, create the deployments and the service then, boom! I am playing the game in less time
+
+![image creation](https://github.com/user-attachments/assets/d1ae6c51-a038-4c14-85e3-41a0770f84b1)
+
+
+![mario image](https://github.com/user-attachments/assets/5a3a32d2-06b2-4df8-a0a3-76cf57213125)
+
+
 ![kservice created](https://github.com/user-attachments/assets/e5c4bd05-92a3-40e9-b8bc-a9a5a28dec36)
 
 
