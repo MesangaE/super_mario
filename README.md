@@ -1,5 +1,9 @@
 <h1>Super Mario Game Deployment on EKS clusters</h1>
+
 courtesy of Aakib -->https://aakibkhan1.medium.com/project-6-deployment-of-super-mario-on-kubernetes-using-terraform-74c7ce79b1f6
+
+
+
 
 I played this game as a teenager. Yes I have been around for a while and to have
 But it was so gratifying playing it again a bit
@@ -16,7 +20,7 @@ To get this game rolling, you need an AWS account or one with a cloud provider b
 6. I played and screamed like a mad teen lol.....only joyful
 7. I created an image for the instance because I wanted to play this game again.....Don't judge me.
 
-creating the EKS infra
+<h2>creating the EKS infra</h2>h2>
 
 Super Mario Bucket (backend) to store state files
 
@@ -25,26 +29,26 @@ Super Mario Bucket (backend) to store state files
 ![state files](https://github.com/user-attachments/assets/5eb3151c-f002-4044-a1c5-6cae4486b074)
 
 
-Mario IAM role
+<h2>Mario IAM role</h2>
 
 
 ![mario role](https://github.com/user-attachments/assets/e465f67e-ac28-41aa-9ea8-1d389e5ba435)
 
-terraform init
+<h3>terraform init</h3>
 ![t init](https://github.com/user-attachments/assets/68a12595-878f-463d-942b-d31d57789868)
 
-terraform plan
+<h3>terraform plan</h3>
 ![t plan](https://github.com/user-attachments/assets/bd157148-2529-42fc-b6ce-13cb76887b00)
 
-terraform apply
+<h3>terraform apply</h3>h3>
 
 ![t apply](https://github.com/user-attachments/assets/4d10e739-7839-432f-931b-f43aac72ef3f)
 
 
-node group
+<h3>node group</h3>
 ![node-group](https://github.com/user-attachments/assets/0d94a4c1-147a-4344-9ae1-2317bd6ce32a)
 
-loadbalancer
+<h3>loadbalancer</h3>h3>
 
 ![loadbalancer](https://github.com/user-attachments/assets/196f29e0-9b45-4cb6-bf1a-8b2546f3c85a)
 
@@ -55,7 +59,7 @@ loadbalancer
 
 ![created cluster](https://github.com/user-attachments/assets/4c850b41-c151-4842-8b8c-6760adecc5db)
 
-created deployment and service
+<h3>created deployment and service</h3>
 
 ![deployment](https://github.com/user-attachments/assets/32037920-ed91-43e3-8577-66fd6d97fa03)
 
