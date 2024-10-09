@@ -80,12 +80,14 @@ I created an image of my instance so I don't need to go through all the precedin
 
 ![mario image](https://github.com/user-attachments/assets/38334159-803b-4b34-a0ef-f30f1bb880ab)
 
-
+when you want to play this game again that image you created has everthin in it. The only things you must do is to configure, attach the role, terraform workflow again and then you can kubectl -f apply the service and deployment files. with Kubectl get all you will get the loadbalancer
 
 
 <h1>Destroy!!!!!</h1>
 
 ![tdestroy](https://github.com/user-attachments/assets/dbc24d02-c9b8-4c2e-a42c-8f44b2768405)
+
+
 
 
 
