@@ -80,7 +80,7 @@ I created an image of my instance so I don't need to go through all the precedin
 
 ![mario image](https://github.com/user-attachments/assets/38334159-803b-4b34-a0ef-f30f1bb880ab)
 
-when you want to play this game again that image you created has everthin in it. The only things you must do is to configure, attach the role, terraform workflow again and then you can kubectl -f apply the service and deployment files. with Kubectl get all you will get the loadbalancer
+when you want to play this game again that image you created has everything in it. The only things you must do is to configure, attach the role, and terraform workflow again and then you can kubectl -f apply the service and deployment files. with Kubectl get all you will get the service URL in the browser and the game is ready again. this is a cost saver as you don't need to keep EKS clusters up and running.
 
 
 <h1>Destroy!!!!!</h1>
